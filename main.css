@@ -1,0 +1,166 @@
+*{margin:0;
+	padding:0;}
+body{
+	background-color: #acc4dc;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif !important;
+    font-size: 15px !important;
+}
+a {
+	text-decoration: none;
+	color:white;
+}
+h1{
+	font-size: 28px;
+	padding-top:10px;
+	padding-left: 18px;
+}
+p{
+	margin:  10px;
+	font-size: 18px;
+	
+	text-align: justify;
+}
+ol {
+	padding-left: 30px;
+	font-size: 18px
+
+}
+
+.h1description{
+	color: #d1d1d1;
+	font-size: 13px;
+	position:absolute;
+	left:20px;
+	top:40px; 
+
+}
+.b3radius{
+ border-radius: 3px;
+ -webkit-border-radius:3px ;
+ -o-border-radius:3px;
+ -moz-border-radius:3px;
+
+}
+#P_A{
+	width: 1000px;
+	margin:30px auto;
+	background: #fff;
+	box-shadow:0px 1px 3px #000000 ;
+	-webkit-box-shadow:0px 1px 3px #000000;
+	-o-box-shadow:0px 1px 3px #000000;
+	-moz-box-shadow:0px 1px 3px #000000;
+	overflow: hidden;
+}
+#header{
+	height: 95px;
+	border-bottom: solid 3px #c7d4e1;
+	background: white;
+}
+#header_nav{
+	height:35px;
+	border-bottom:solid 1px pink;
+	
+}
+#header_nav ul{
+	list-style: none;
+}
+#header_nav ul li{
+	float: left;
+	border-right: solid 1px #f1f1f1;
+}
+#header_nav ul li:last-child
+{border-right: none;}
+#header_nav ul li a{
+	color: MediumVioletRed;
+	display: block;
+	line-height: 35px;
+	padding: 0 7px;
+}
+#header_nav ul li a:hover{
+	background: MediumVioletRed;
+	color: white;
+}
+input[name=topsearh]{
+	float: right;
+	margin-right:30px;
+	height: 25px;
+	margin-top:5px; 
+	border:none;
+	box-shadow: inset 0px 1px 3px rgba(0,0,0,.1); 
+	background: #f0f0f0;
+	padding: 0 5px;
+	width: 145px;
+}
+#header_cont{
+	position: relative;
+	
+
+}
+
+#sidebar{
+	width: 195px;
+	border-right: solid 3px #98ca60;
+	float: left;
+	height: 1010px;
+	background:  DimGray;
+
+
+
+}
+.sbheader{
+	background: DarkSlateGrey;
+	height: 31px;
+	color:white;
+	line-height: 31px;
+	font-size: 15px;
+	float: bottom;
+	border-bottom: solid 1px white;
+	padding-left: 7px;
+}
+.sbheader:hover{
+
+	padding-left: 18px;
+
+}
+
+
+.sbpodheader ul{
+	border-bottom:solid 1px pink;
+}
+
+.sbpodheader ul li{
+	background: dimgray  ;
+	height: 31px;
+	color: #d1d1d1;
+	line-height: 31px;
+	font-size: 15px;
+	float: bottom;
+	border-bottom: solid 1px gray;
+	padding-left: 14px;
+	
+
+}
+.sbpodheader ul li:hover{
+	padding-left: 18px;
+	color: white;
+}
+.sbpodheader ul li a{
+	color: white;
+	display: block;
+	line-height: 35px;
+	padding: 0 7px;}
+#content{
+	float: right;
+	width: 800px;
+	
+}
+
+.slr{
+	clear: both;
+}
+#h2{
+	color:DarkSlateGrey;
+}
+.pinkguy li{
+	background:  deeppink;
+}
