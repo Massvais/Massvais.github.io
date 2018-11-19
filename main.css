@@ -167,3 +167,8 @@ input[name=topsearh]{
 .pg{
 background: url(8.png);
 }
+.index_gradient{
+	background: linear-gradient(260deg, #DB7093, #ef8898ed, #f39bac, pink, #f5afe1d6, #eab1ce,#da93b8, #FF69B4, #dc2196e0);
+	height: 100%;
+	width: 100%;
+}
